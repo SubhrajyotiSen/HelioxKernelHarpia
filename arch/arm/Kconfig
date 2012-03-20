@@ -166,6 +166,9 @@ config RWSEM_GENERIC_SPINLOCK
 config RWSEM_XCHGADD_ALGORITHM
 	def_bool y
 
+config RWSEM_XCHGADD_ALGORITHM
+	def_bool y
+
 config ARCH_HAS_ILOG2_U32
 	bool
 
