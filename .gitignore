@@ -83,6 +83,9 @@ signing_key.priv
 signing_key.x509
 x509.genkey
 
-# squid kernel build stuff
+# heliox kernel build stuff
+heliox_install
 squid_install
 cwm_flash_zip/boot.img
+arch/arm/boot/heliox_kernel.zip
+
