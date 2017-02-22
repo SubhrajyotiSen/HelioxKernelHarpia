@@ -1,4 +1,13 @@
-ui_print("Squid Kernel for Motorola MSM8916 Devices");
+ui_print("  _    _          _   _                  ");
+ui_print(" | |  | |        | | (_)                 ");
+ui_print(" | |__| |   ___  | |  _    ___   __  __  ");
+ui_print(" |  __  |  / _ \ | | | |  / _ \  \ \/ /  ");
+ui_print(" | |  | | |  __/ | | | | | (_) |  >  <   ");
+ui_print(" |_|  |_|  \___| |_| |_|  \___/  /_/\_\  ");
+                                       
+                                       
+ui_print("### By Subhrajyoti Sen ###");
+ui_print(" ");
 
 assert(getprop("ro.product.device") == "surnia" ||
        getprop("ro.product.device") == "surnia_umts" ||
